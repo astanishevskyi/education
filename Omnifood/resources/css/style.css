@@ -155,7 +155,6 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    margin-right: 15px;
 }
 
 .btn-full:link,
@@ -164,6 +163,7 @@ input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
+    margin-right: 15px;
 }
 
 .btn-ghost:link,
@@ -173,7 +173,9 @@ input[type=submit] {
 }
 
 .btn:active,
-.btn:hover {
+.btn:hover,
+input[type=submit]:hover,
+input[type=submit]:active, {
     background-color: #cf6d17;
 }
 
