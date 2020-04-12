@@ -6,9 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  tabSelected = 'recipes';
-
-  onNavigate(tab: string) {
-    this.tabSelected = tab;
-  }
 }
